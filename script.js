@@ -7300,25 +7300,24 @@ this.state.condition = (id % 4) + 1;
         "before:prepare": function anonymous(
 ) {
 //check Tardy
-//ファイル名をユーザーIDにする
-const participantID = this.parameters.participantID
-
+//ファイル名をランダムIDにする
+const participantID = this.random.uuid4()
 //csvファイルで保存する場合
 const filename = participantID + "_data.csv"
 const data = study.internals.controller.datastore.exportCsv();
-
 fetch("https://pipe.jspsych.org/api/data/", {
-  method: "POST",
-  headers: {
-    "Content-Type": "application/json",
-    Accept: "*/*",
-  },
-  body: JSON.stringify({
-    experimentID: "iC4CjSVMwM7N",
-    filename: filename,
-    data: data,
-  }),
+ method: "POST",
+ headers: {
+ "Content-Type": "application/json",
+ Accept: "*/*",
+ },
+ body: JSON.stringify({
+ experimentID: "iC4CjSVMwM7N",
+ filename: filename,
+ data: data
+ }),
 });
+
 }
       },
       "title": "Page",
