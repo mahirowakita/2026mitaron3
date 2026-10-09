@@ -7,6 +7,11 @@ const study = lab.util.fromObject({
     {
       "type": "lab.plugins.Metadata",
       "path": undefined
+    },
+    {
+      "type": "lab.plugins.Download",
+      "filePrefix": "study",
+      "path": undefined
     }
   ],
   "metadata": {
@@ -252,7 +257,7 @@ this.state.condition = (id % 4) + 1;
       },
       "parameters": {},
       "messageHandlers": {},
-      "title": "SNS引用のsequence",
+      "title": "cSNSsequence",
       "skip": "${this.state.condition != 1}",
       "content": [
         {
@@ -263,7 +268,7 @@ this.state.condition = (id % 4) + 1;
           },
           "parameters": {},
           "messageHandlers": {},
-          "title": "②引用SNS",
+          "title": "cSNS2",
           "content": [
             {
               "type": "lab.html.Page",
@@ -446,7 +451,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "cSNS2_reliability"
             },
             {
               "type": "lab.canvas.Screen",
@@ -563,7 +568,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "cSNS2_buy"
             }
           ]
         },
@@ -575,7 +580,7 @@ this.state.condition = (id % 4) + 1;
           },
           "parameters": {},
           "messageHandlers": {},
-          "title": "③引用SNS",
+          "title": "cSNS3",
           "content": [
             {
               "type": "lab.html.Page",
@@ -758,7 +763,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "cSNS3_reliability"
             },
             {
               "type": "lab.canvas.Screen",
@@ -875,7 +880,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "cSNS3_buy"
             }
           ]
         },
@@ -887,7 +892,7 @@ this.state.condition = (id % 4) + 1;
           },
           "parameters": {},
           "messageHandlers": {},
-          "title": "①引用SNS",
+          "title": "cSNS1",
           "content": [
             {
               "type": "lab.html.Page",
@@ -1055,7 +1060,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "cSNS1_reliability"
             },
             {
               "type": "lab.canvas.Screen",
@@ -1172,7 +1177,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "cSNS1_buy"
             }
           ]
         },
@@ -1184,7 +1189,7 @@ this.state.condition = (id % 4) + 1;
           },
           "parameters": {},
           "messageHandlers": {},
-          "title": "④引用SNS",
+          "title": "cSNS4",
           "content": [
             {
               "type": "lab.html.Page",
@@ -1286,7 +1291,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Page"
+              "title": "cSNS4_reliability"
             },
             {
               "type": "lab.canvas.Screen",
@@ -1403,7 +1408,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "cSNS4_buy"
             }
           ]
         },
@@ -1415,7 +1420,7 @@ this.state.condition = (id % 4) + 1;
           },
           "parameters": {},
           "messageHandlers": {},
-          "title": "⑤引用SNS",
+          "title": "cSNS5",
           "content": [
             {
               "type": "lab.html.Page",
@@ -1581,7 +1586,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "cSNS5_reliability"
             },
             {
               "type": "lab.canvas.Screen",
@@ -1698,7 +1703,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "cSNS5_buy"
             }
           ]
         },
@@ -1710,7 +1715,7 @@ this.state.condition = (id % 4) + 1;
           },
           "parameters": {},
           "messageHandlers": {},
-          "title": "⑥引用SNS",
+          "title": "cSNS6",
           "content": [
             {
               "type": "lab.html.Page",
@@ -1874,7 +1879,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "cSNS6_reliability"
             },
             {
               "type": "lab.canvas.Screen",
@@ -1991,7 +1996,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "cSNS6_buy"
             }
           ]
         }
@@ -2005,7 +2010,7 @@ this.state.condition = (id % 4) + 1;
       },
       "parameters": {},
       "messageHandlers": {},
-      "title": "テレビのSequence",
+      "title": "tvSequence",
       "skip": "${this.state.condition != 2}",
       "content": [
         {
@@ -2016,7 +2021,7 @@ this.state.condition = (id % 4) + 1;
           },
           "parameters": {},
           "messageHandlers": {},
-          "title": "②テレビ",
+          "title": "tv2",
           "content": [
             {
               "type": "lab.html.Page",
@@ -2198,7 +2203,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "tv2_reliability"
             },
             {
               "type": "lab.canvas.Screen",
@@ -2315,7 +2320,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "tv2_buy"
             }
           ]
         },
@@ -2327,7 +2332,7 @@ this.state.condition = (id % 4) + 1;
           },
           "parameters": {},
           "messageHandlers": {},
-          "title": "③テレビ",
+          "title": "tv3",
           "content": [
             {
               "type": "lab.html.Page",
@@ -2509,7 +2514,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "tv3_reliability"
             },
             {
               "type": "lab.canvas.Screen",
@@ -2626,7 +2631,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "tv3_buy"
             }
           ]
         },
@@ -2638,7 +2643,7 @@ this.state.condition = (id % 4) + 1;
           },
           "parameters": {},
           "messageHandlers": {},
-          "title": "①テレビ",
+          "title": "tv1",
           "content": [
             {
               "type": "lab.html.Page",
@@ -2803,7 +2808,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "tv1_reliability"
             },
             {
               "type": "lab.canvas.Screen",
@@ -2920,7 +2925,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "tv1_buy"
             }
           ]
         },
@@ -2932,7 +2937,7 @@ this.state.condition = (id % 4) + 1;
           },
           "parameters": {},
           "messageHandlers": {},
-          "title": "④テレビ",
+          "title": "tv4",
           "content": [
             {
               "type": "lab.html.Page",
@@ -3026,7 +3031,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Page"
+              "title": "tv4_reliability"
             },
             {
               "type": "lab.canvas.Screen",
@@ -3143,7 +3148,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "tv4_buy"
             }
           ]
         },
@@ -3155,7 +3160,7 @@ this.state.condition = (id % 4) + 1;
           },
           "parameters": {},
           "messageHandlers": {},
-          "title": "⑤テレビ",
+          "title": "tv5",
           "content": [
             {
               "type": "lab.html.Page",
@@ -3319,7 +3324,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "tv5_reliability"
             },
             {
               "type": "lab.canvas.Screen",
@@ -3436,7 +3441,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "tv5_buy"
             }
           ]
         },
@@ -3448,7 +3453,7 @@ this.state.condition = (id % 4) + 1;
           },
           "parameters": {},
           "messageHandlers": {},
-          "title": "⑥テレビ",
+          "title": "tv6",
           "content": [
             {
               "type": "lab.html.Page",
@@ -3611,7 +3616,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "tv6_reliability"
             },
             {
               "type": "lab.canvas.Screen",
@@ -3728,7 +3733,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "tv6_buy"
             }
           ]
         }
@@ -3742,7 +3747,7 @@ this.state.condition = (id % 4) + 1;
       },
       "parameters": {},
       "messageHandlers": {},
-      "title": "SNSのSequence",
+      "title": "SNSSequence",
       "skip": "${this.state.condition != 3}",
       "content": [
         {
@@ -3753,7 +3758,7 @@ this.state.condition = (id % 4) + 1;
           },
           "parameters": {},
           "messageHandlers": {},
-          "title": "②SNS",
+          "title": "SNS2",
           "content": [
             {
               "type": "lab.html.Page",
@@ -3935,7 +3940,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "SNS2_reliability"
             },
             {
               "type": "lab.canvas.Screen",
@@ -4052,7 +4057,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "SNS2_buy"
             }
           ]
         },
@@ -4064,7 +4069,7 @@ this.state.condition = (id % 4) + 1;
           },
           "parameters": {},
           "messageHandlers": {},
-          "title": "③SNS",
+          "title": "SNS3",
           "content": [
             {
               "type": "lab.html.Page",
@@ -4246,7 +4251,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "SNS3_reliability"
             },
             {
               "type": "lab.canvas.Screen",
@@ -4363,7 +4368,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "SNS3_buy"
             }
           ]
         },
@@ -4375,7 +4380,7 @@ this.state.condition = (id % 4) + 1;
           },
           "parameters": {},
           "messageHandlers": {},
-          "title": "①SNS",
+          "title": "SNS1",
           "content": [
             {
               "type": "lab.html.Page",
@@ -4541,7 +4546,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "SNS1_reliability"
             },
             {
               "type": "lab.canvas.Screen",
@@ -4658,7 +4663,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "SNS1_buy"
             }
           ]
         },
@@ -4670,7 +4675,7 @@ this.state.condition = (id % 4) + 1;
           },
           "parameters": {},
           "messageHandlers": {},
-          "title": "④SNS",
+          "title": "SNS4",
           "content": [
             {
               "type": "lab.html.Page",
@@ -4765,7 +4770,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Page"
+              "title": "SNS4_reliability"
             },
             {
               "type": "lab.canvas.Screen",
@@ -4882,7 +4887,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "SNS4_buy"
             }
           ]
         },
@@ -4894,7 +4899,7 @@ this.state.condition = (id % 4) + 1;
           },
           "parameters": {},
           "messageHandlers": {},
-          "title": "⑤SNS",
+          "title": "SNS5",
           "content": [
             {
               "type": "lab.html.Page",
@@ -5059,7 +5064,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "SNS5_reliability"
             },
             {
               "type": "lab.canvas.Screen",
@@ -5176,7 +5181,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "SNS5_buy"
             }
           ]
         },
@@ -5188,7 +5193,7 @@ this.state.condition = (id % 4) + 1;
           },
           "parameters": {},
           "messageHandlers": {},
-          "title": "⑥SNS",
+          "title": "SNS6",
           "content": [
             {
               "type": "lab.html.Page",
@@ -5352,7 +5357,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "SNS6_reliability"
             },
             {
               "type": "lab.canvas.Screen",
@@ -5469,7 +5474,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "SNS6_buy"
             }
           ]
         }
@@ -5483,7 +5488,7 @@ this.state.condition = (id % 4) + 1;
       },
       "parameters": {},
       "messageHandlers": {},
-      "title": "引用テレビのSequence",
+      "title": "ctvSequence",
       "skip": "${this.state.condition != 4}",
       "content": [
         {
@@ -5494,7 +5499,7 @@ this.state.condition = (id % 4) + 1;
           },
           "parameters": {},
           "messageHandlers": {},
-          "title": "2",
+          "title": "ctv2",
           "content": [
             {
               "type": "lab.html.Page",
@@ -5676,7 +5681,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "ctv2_reliability"
             },
             {
               "type": "lab.canvas.Screen",
@@ -5793,7 +5798,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "ctv2_buy"
             }
           ]
         },
@@ -5805,7 +5810,7 @@ this.state.condition = (id % 4) + 1;
           },
           "parameters": {},
           "messageHandlers": {},
-          "title": "3",
+          "title": "ctv3",
           "content": [
             {
               "type": "lab.html.Page",
@@ -5987,7 +5992,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "ctv3_reliability"
             },
             {
               "type": "lab.canvas.Screen",
@@ -6104,7 +6109,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "ctv3_buy"
             }
           ]
         },
@@ -6116,7 +6121,7 @@ this.state.condition = (id % 4) + 1;
           },
           "parameters": {},
           "messageHandlers": {},
-          "title": "1",
+          "title": "ctv1",
           "content": [
             {
               "type": "lab.html.Page",
@@ -6281,7 +6286,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "ctv1_reliability"
             },
             {
               "type": "lab.canvas.Screen",
@@ -6398,7 +6403,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "ctv1_buy"
             }
           ]
         },
@@ -6410,7 +6415,7 @@ this.state.condition = (id % 4) + 1;
           },
           "parameters": {},
           "messageHandlers": {},
-          "title": "4",
+          "title": "ctv4",
           "content": [
             {
               "type": "lab.html.Page",
@@ -6505,7 +6510,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Page"
+              "title": "ctv4_reliability"
             },
             {
               "type": "lab.canvas.Screen",
@@ -6622,7 +6627,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "ctv4_buy"
             }
           ]
         },
@@ -6634,7 +6639,7 @@ this.state.condition = (id % 4) + 1;
           },
           "parameters": {},
           "messageHandlers": {},
-          "title": "5",
+          "title": "ctv5",
           "content": [
             {
               "type": "lab.html.Page",
@@ -6799,7 +6804,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "ctv5_reliability"
             },
             {
               "type": "lab.canvas.Screen",
@@ -6916,7 +6921,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "ctv5_buy"
             }
           ]
         },
@@ -6928,7 +6933,7 @@ this.state.condition = (id % 4) + 1;
           },
           "parameters": {},
           "messageHandlers": {},
-          "title": "6",
+          "title": "ctv6",
           "content": [
             {
               "type": "lab.html.Page",
@@ -7092,7 +7097,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "ctv6_reliability"
             },
             {
               "type": "lab.canvas.Screen",
@@ -7209,7 +7214,7 @@ this.state.condition = (id % 4) + 1;
               },
               "parameters": {},
               "messageHandlers": {},
-              "title": "Screen"
+              "title": "ctv6_buy"
             }
           ]
         }
@@ -7312,7 +7317,7 @@ fetch("https://pipe.jspsych.org/api/data/", {
  Accept: "*/*",
  },
  body: JSON.stringify({
- experimentID: "iC4CjSVMwM7N",
+ experimentID: "lW9A4HHz8Eyk",
  filename: filename,
  data: data
  }),
